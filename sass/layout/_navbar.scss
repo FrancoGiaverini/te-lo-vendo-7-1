@@ -1,0 +1,113 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0 40px;
+  border-bottom: 1px solid #e5e8eb;
+  box-sizing: border-box;
+  width: 100%;
+
+  &__left,
+  &__logo-group,
+  &__menu,
+  &__right,
+  &__search,
+  &__cart,
+  &__user {
+    display: flex;
+    align-items: center;
+  }
+
+  &__left {
+    gap: 40px;
+  }
+
+  &__logo-group {
+    gap: 12px;
+  }
+
+  &__logo-icon {
+    width: 20px;
+    height: 20px;
+    fill: $text-dark;
+  }
+
+  &__brand {
+    a {
+      text-decoration: none;
+      color: $text-dark;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+
+  &__menu {
+    gap: 24px;
+  }
+
+  &__links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $text-dark;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+  }
+
+  &__right {
+    gap: 24px;
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  &__search {
+    background: #f5f0f0;
+    border-radius: 8px;
+    padding: 0 16px;
+    height: 40px;
+    gap: 8px;
+
+    &-icon {
+      width: 20px;
+      height: 20px;
+      fill: $text-muted;
+    }
+
+    &-text {
+      color: $text-muted;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 21px;
+    }
+  }
+
+  &__cart {
+    padding: 0 10px;
+    background: #f3f4f3;
+    border-radius: 8px;
+    height: 40px;
+    justify-content: center;
+
+    &-icon {
+      width: 20px;
+      height: 20px;
+      fill: $text-dark;
+    }
+  }
+
+  &__user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+
