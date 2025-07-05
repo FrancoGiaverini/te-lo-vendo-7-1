@@ -1,0 +1,9 @@
+@use "../abstracts/variables";
+
+.catalog {
+  background-color: variables.$bg-light;
+  font-family: variables.$font-main;
+}
+
+.breadcrubs__item {
+}
