@@ -2,17 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
 }
 
 body {
-=======
-  font-family: "Plus Jakarta Sans", sans-serif;
-}
-
-body {
-  background-color: #ffffff;
->>>>>>> isabelPalacios
   overflow-x: hidden;
 }
 
@@ -138,8 +130,6 @@ body {
   object-fit: cover;
 }
 
-<<<<<<< HEAD
-=======
 body {
   background-color: #ffffff;
   overflow-x: hidden;
@@ -335,5 +325,4 @@ body {
   color: #171212;
 }
 
->>>>>>> isabelPalacios
 /*# sourceMappingURL=style.css.map */
