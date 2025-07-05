@@ -4,9 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font: @variables.$font-main;
+  font: variables.$font-main;
 }
 
 body {
-  background-color: @variables.$bg-light;
+  background-color: variables.$bg-light;
+  overflow-x: hidden;
 }
