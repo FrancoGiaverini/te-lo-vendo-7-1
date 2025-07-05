@@ -1,13 +1,13 @@
-@use "abstracts/variables";
+@use "../abstracts/variables";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: variables.$font-main;
+  //   font-family: variables.;
 }
 
 body {
-  background-color: variables.$bg-light;
+  //   background-color: variables.$bg-light;
   overflow-x: hidden;
 }
