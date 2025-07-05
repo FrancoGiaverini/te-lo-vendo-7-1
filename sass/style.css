@@ -325,12 +325,6 @@ body {
   color: #171212;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Plus Jakarta Sans", sans-serif;
-}
-
 .main__container__about {
   margin: 0 auto;
   max-width: 960px;
