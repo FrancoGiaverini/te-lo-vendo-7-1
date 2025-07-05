@@ -1,3 +1,5 @@
+@use "../abstracts/variables";
+
 .navbar {
   display: flex;
   align-items: center;
@@ -30,13 +32,13 @@
   &__logo-icon {
     width: 20px;
     height: 20px;
-    fill: $text-dark;
+    fill: variables.$text-dark;
   }
 
   &__brand {
     a {
       text-decoration: none;
-      color: $text-dark;
+      color: variables.$text-dark;
       font-weight: 700;
       font-size: 18px;
       line-height: 23px;
@@ -55,7 +57,7 @@
 
   &__link {
     text-decoration: none;
-    color: $text-dark;
+    color: variables.$text-dark;
     font-size: 14px;
     font-weight: 500;
     line-height: 21px;
@@ -77,11 +79,11 @@
     &-icon {
       width: 20px;
       height: 20px;
-      fill: $text-muted;
+      fill: variables.$text-muted;
     }
 
     &-text {
-      color: $text-muted;
+      color: variables.$text-muted;
       font-size: 14px;
       font-weight: 500;
       line-height: 21px;
@@ -98,7 +100,7 @@
     &-icon {
       width: 20px;
       height: 20px;
-      fill: $text-dark;
+      fill: variables.$text-dark;
     }
   }
 
@@ -109,5 +111,3 @@
     object-fit: cover;
   }
 }
-
-
