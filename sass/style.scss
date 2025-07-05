@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-@use 'variables';
-@use 'navbar';
-@use 'footer';
-@use 'home';
-=======
+
 @use "abstracts/variables";
 @use "base/reset";
 @use "component/footer";
@@ -11,5 +6,4 @@
 @use "pages/home";
 @use "pages/about";
 @use "pages/catalog";
-@use "page/detail";
->>>>>>> 1a5a06c1eea28e82b7d14173ec83178c5bf60636
+@use "pages/detail";
