@@ -327,6 +327,129 @@ body {
   color: #171212;
 }
 
+.main__container__about {
+  margin: 0 auto;
+  max-width: 960px;
+  height: 689px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.main__container__about .about__container {
+  display: flex;
+  padding: 16px;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  row-gap: 12px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+.main__container__about .about__title {
+  color: #171212;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.main__container__about .about__description {
+  color: #876363;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.main__container__about .about__ourteam__container {
+  display: flex;
+  height: 60px;
+  padding: 20px 16px 12px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.main__container__about .about__ourteam__container .about__ourteam__title {
+  color: #171212;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.main__container__about .about__gallery__container {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+.main__container__about .about__gallery__container .about__gallery__images {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.main__container__about .about__gallery__container .about__gallery__images .about__gallery__item {
+  display: flex;
+  width: 301px;
+  padding-bottom: 12px;
+  flex-direction: column;
+  gap: 12px;
+  align-self: stretch;
+}
+.main__container__about .about__gallery__container .about__gallery__images .about__gallery__item .about__gallery__image {
+  display: flex;
+  padding: 0px 16px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+}
+.main__container__about .about__team__names {
+  color: #171212;
+  text-align: center;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.main__container__about .about__team__role {
+  color: #876363;
+  text-align: center;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.main__container__about .about__team__resume__container {
+  display: flex;
+  padding: 4px 16px 12px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  margin-bottom: 20px;
+}
+.main__container__about .about__team__resume__container .about__team__resume__description {
+  color: #171212;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Plus Jakarta Sans", sans-serif;
